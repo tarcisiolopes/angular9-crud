@@ -11,7 +11,11 @@
 }
 
 .header .logo {
-    max-height: 31px;
+    display: flex;
+    width: 200px;
+    max-height: 100px;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .header .title-group {
