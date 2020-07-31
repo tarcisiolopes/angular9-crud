@@ -11,11 +11,6 @@
       "price": 5000
     },
     {
-      "id": 5,
-      "name": "Notebook Avell",
-      "price": "5000"
-    },
-    {
       "name": "Geladeira Consul",
       "price": "1800",
       "id": 6
@@ -49,6 +44,11 @@
       "name": "Caneta BIC",
       "price": "5",
       "id": 12
+    },
+    {
+      "name": "Veiculo",
+      "price": "35000",
+      "id": 13
     }
   ]
 }
