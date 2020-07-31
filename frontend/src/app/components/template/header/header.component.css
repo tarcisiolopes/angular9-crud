@@ -1,5 +1,5 @@
 .header {
-    display: flex;
+    display: flex block;
     align-items: center;
     background-color:#5c97f7;
 }

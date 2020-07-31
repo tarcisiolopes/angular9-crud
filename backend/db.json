@@ -39,6 +39,16 @@
       "name": "Xiaomi Pocophone",
       "price": "1299.88",
       "id": 9
+    },
+    {
+      "name": "Toalha",
+      "price": "35",
+      "id": 10
+    },
+    {
+      "name": "Oculos de sol",
+      "price": "150",
+      "id": 11
     }
   ]
 }
