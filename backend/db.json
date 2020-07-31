@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC",
-      "price": 5
-    },
-    {
       "id": 2,
       "name": "Notebook MacBook Pro",
       "price": 12000
@@ -49,6 +44,11 @@
       "name": "Oculos de sol",
       "price": "150",
       "id": 11
+    },
+    {
+      "name": "Caneta BIC",
+      "price": "5",
+      "id": 12
     }
   ]
 }
