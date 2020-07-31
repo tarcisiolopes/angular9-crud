@@ -34,6 +34,11 @@
       "name": "Caneca Friends",
       "price": "25",
       "id": 8
+    },
+    {
+      "name": "Xiaomi Pocophone",
+      "price": "1299.88",
+      "id": 9
     }
   ]
 }
