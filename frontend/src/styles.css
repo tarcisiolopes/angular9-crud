@@ -11,10 +11,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     vertical-align: middle;
 }
 
-/* .header{
-    display: block;
-} */
-
 .msg-success {
     background-color: #28a745;
     color: white

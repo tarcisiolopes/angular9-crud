@@ -65,8 +65,6 @@ registerLocaleData(localePt)
     MatTableModule,
     MatPaginatorModule,
     MatSortModule
-
-
   ],
   providers: [{
     provide: LOCALE_ID,
