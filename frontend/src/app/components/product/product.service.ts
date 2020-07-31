@@ -1,6 +1,6 @@
 import { Product } from './product.model';
 import { Injectable } from '@angular/core';
-import { MatSnackBar }from '@angular/material/snack-bar'
+import { MatSnackBar } from '@angular/material/snack-bar'
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
@@ -14,8 +14,8 @@ export class ProductService {
   constructor(private snackBar: MatSnackBar,
     private http: HttpClient) { }
 
-  showMensage(msg:string): void {
-    this.snackBar.open(msg,'X',{
+  showMensage(msg: string): void {
+    this.snackBar.open(msg, 'X', {
       duration: 3000,
       horizontalPosition: "right",
       verticalPosition: "top"
@@ -34,9 +34,14 @@ export class ProductService {
     const url = `${this.baseUrl}/${id}`
     return this.http.get<Product>(url)
   }
-  
+
   update(product: Product): Observable<Product> {
     const url = `${this.baseUrl}/${product.id}`
     return this.http.put<Product>(url, product)
+  }
+
+  delete(id: string): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.delete<Product>(url)
   }
 }
