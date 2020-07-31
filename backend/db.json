@@ -29,6 +29,11 @@
       "name": "Vape Nord 2",
       "price": "269",
       "id": 7
+    },
+    {
+      "name": "Caneca Friends",
+      "price": "25",
+      "id": 8
     }
   ]
 }
