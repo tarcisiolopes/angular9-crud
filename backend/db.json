@@ -24,6 +24,11 @@
       "name": "Geladeira Consul",
       "price": "1800",
       "id": 6
+    },
+    {
+      "name": "Vape Nord 2",
+      "price": "269",
+      "id": 7
     }
   ]
 }
